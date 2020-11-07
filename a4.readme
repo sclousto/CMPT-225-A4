@@ -1,0 +1,12 @@
+301346228 sclousto Sage Clouston
+
+Puts both lists into two priority queues
+Then compares the max value from each queue
+If they are equal compare the next element in the first queue
+If they are not equal compare the next element in the second queue
+If either queue is empty break from the algorithm
+If the first queue was empty then there is no value in L1 that isn't in L2 and return NONE
+If the second queue is empty then print the max value in L1 that isn't in L2
+
+I used the queue STL to implament the priority queues which I did not write
+I used the ifstream STL to read from the file which I did not write
